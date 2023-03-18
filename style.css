@@ -1,0 +1,44 @@
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, Sans-serif;
+    margin: 0;
+    display: flex;
+}
+
+img {
+    /*width: 40%;*/
+    max-height: 100vh;
+    max-width: 40vw;
+}
+
+.banner,
+.bannerbg {
+    position: absolute;
+    top: 15vh;
+    width: 40vw;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 4rem;
+}
+
+.bannerbg {
+    background-color: rgb(97, 97, 97);
+    opacity: 40%;
+}
+
+.logocontainer {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+}
+
+.maincontent {
+    display: inline-block;
+    background-color: aqua;
+}
